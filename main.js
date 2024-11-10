@@ -94,10 +94,7 @@ const readFilesAndDiff = (originalFilePath, modifiedFilePath) => {
 
 console.log('\nCalculate Diff\n')
 
-const diffFiles = [
-    { file_a: '_min_ori.py', file_b: '_min_mod.py' },
-    { file_a: 'original.py', file_b: 'modified.py' },
-]
+const diffFiles = [{ file_a: 'original', file_b: 'modified' }]
 
 console.log('--- start ---\n')
 
